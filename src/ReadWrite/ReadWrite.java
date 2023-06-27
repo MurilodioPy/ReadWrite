@@ -184,7 +184,7 @@ public class ReadWrite {
             String outFile = "src/files/" + nomeFormatPasta + "/Relatorio-" + nomeFormatTime + ".txt";//concatena o endereço do arquivo
             
             if (criado) {//verifica se a pasta foi criada ou sobreposta 
-                System.out.println("Pasta "+ nomeFormatPasta + "criada com sucesso: " + criado );
+                System.out.println("Pasta "+ nomeFormatPasta + " criada com sucesso: " + criado );
             }else{
                 System.out.println("Pasta "+ nomeFormatPasta +" ja foi criada!!");
             }
